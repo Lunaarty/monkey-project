@@ -17,6 +17,7 @@ body {
     line-height: 1.5;
     margin: 0;
     background-color: var(--color-primary-dark);
+    padding: 272px;
 
 }
 
@@ -28,6 +29,7 @@ h5,
 h6,
 p {
     margin-top: 0;
+    
 }
 
 .section {
@@ -54,4 +56,15 @@ p {
 .button:hover {
     color: var(--color-primaty-dark);
     background-color: var(--color-primary-light);
+}
+
+.images{
+    width: 1100px;
+    margin: auto;
+    
+}
+.section-title {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.3;
 }
