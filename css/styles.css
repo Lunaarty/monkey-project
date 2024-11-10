@@ -1,0 +1,57 @@
+:root {
+    --color-primary-dark: #DEB887;
+    --color-primary-light: #FFF8DC;
+    --color-brand-dark: #465929;
+    --color-brand-light: #819B57;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--color-brand-dark);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    background-color: var(--color-primary-dark);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+.section {
+    padding: 48px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+
+}
+
+.button {
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-dark);
+    border: 6px solid var(--color-brand-light);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 16px 32px;
+}
+
+.button:hover {
+    color: var(--color-primaty-dark);
+    background-color: var(--color-primary-light);
+}
